@@ -1,0 +1,23 @@
+.coin-flex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:1.5rem;
+    margin: 0.5rem 1.5rem;
+}
+.coin1{
+    display: block;
+    color: var(--blue);
+}
+@media only screen and (max-width:630px) {
+
+    .coin-flex{
+        gap:1rem;
+    }
+    .coin1{
+        display: none;
+    }
+    .coin-flex{
+        margin-left: 0rem;
+    }
+}
