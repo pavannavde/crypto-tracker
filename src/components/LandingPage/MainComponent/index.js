@@ -43,13 +43,12 @@ const MainComponent = () => {
           </Link>
           <RWebShare
             data={{
-              text: "Crypto Dashboard made using React JS.",
-              url: "https://crypto-pulse-tracker.netlify.app/",
-              title: "CryptoDashboard.",
+              text: "Crypto Tracker",
+              url: "https://crypto-tracker-app.netlify.app/",
+              title: "Crypto Tracker",
             }}
-            onClick={() => console.log("shared successfully!")}
           >
-              <Button text={"share app"} Outlined={true}/>
+            <Button text={"share app"} Outlined={true}/>
           </RWebShare>
           
         </motion.div>
