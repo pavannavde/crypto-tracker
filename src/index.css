@@ -102,6 +102,20 @@ body {
   transition: all 400ms ease-out;
 }
 
+[data-theme="dark"] {
+  --white: #ffffff;
+  --black: #111;
+  --grey: #888;
+  --darkgrey: #1b1b1b;
+}
+
+[data-theme="light"] {
+  --white: #111;
+  --black: #fff;
+  --grey: #888;
+  --darkgrey: #f3f3f3;
+}
+
 @media only screen and (max-width: 600px) {
   .cursor-pointer,
   .cursor {
