@@ -47,6 +47,7 @@ const MainComponent = () => {
               url: "https://crypto-tracker-app.netlify.app/",
               title: "Crypto Tracker",
             }}
+            onClick={() => console.log("shared successfully!")}
           >
             <Button text={"share app"} Outlined={true}/>
           </RWebShare>
