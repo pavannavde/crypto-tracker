@@ -49,6 +49,12 @@
         display: block;
     }
 }
+@media only screen and (max-width:950px) {
+
+    .td-total-volume{
+        display: none;
+     }
+}
 
 @media only screen and (max-width:800px){ 
 
@@ -74,6 +80,9 @@
     .td-img{
         width:1.8rem !important;
         margin-right: 1.5rem;
+    }
+    .WIcon{
+        margin-left: auto;
     }
 }
 @media only screen and (max-width:700px){ 

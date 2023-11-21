@@ -95,13 +95,13 @@ function List({coin,isWatchlistPage}) {
               <StarRoundedIcon
                 className={`watchlist-icon ${
                   coin.price_change_percentage_24h < 0 && "watchlist-icon-red"
-                } `}
+                } WIcon`}
               />
             ) : (
               <StarBorderRoundedIcon
                 className={`watchlist-icon ${
                   coin.price_change_percentage_24h < 0 && "watchlist-icon-red"
-                } `}
+                } WIcon`}
               />
             )}
           </IconButton>
