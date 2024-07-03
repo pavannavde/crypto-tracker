@@ -57,7 +57,7 @@ const Header = () => {
           <p className='link'>Home</p>
         </Link>
         <Link to='/compare'>
-          <p className='link'>Comapare</p>
+          <p className='link'>Compare</p>
         </Link>
         <Link to='/watchlist'>
           <p className='link'>Watchlist</p>
