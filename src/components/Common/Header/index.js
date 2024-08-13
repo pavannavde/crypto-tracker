@@ -44,7 +44,7 @@ const Header = () => {
     <div className='header'>
 
        <h1 className='logo'>
-        CryptoTracker<span style={{color:"var(--blue)"}}>.</span>
+        CoinPulse<span style={{color:"var(--blue)"}}>.</span>
         </h1>
 
        <div className='links'>
