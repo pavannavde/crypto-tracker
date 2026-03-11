@@ -1,73 +1,47 @@
-Live: https://crypto-pulse-tracker.netlify.app/
+# 🪙 Crypto Pulse Tracker
 
+<p align="center">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=mui&logoColor=white" />
+  <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" />
+  <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" />
+</p>
 
-# Getting Started with Create React App
+**Crypto Pulse Tracker** is a high-performance, visually stunning web application that allows users to monitor the cryptocurrency market in real-time. Built with a focus on **User Experience (UX)**, it combines the structural power of Material UI with the fluid motion of Framer Motion.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+## 🔗 Live Link
+🚀 **View the App:** [https://crypto-pulse-tracker.netlify.app/](https://crypto-pulse-tracker.netlify.app/)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## ✨ Key Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Live Market Data:** Fetches real-time prices, market cap, and 24h changes via the CoinGecko API.
+- **Polished UI:** Utilizes **Material UI (MUI)** for a clean, professional financial dashboard look.
+- **Dynamic Animations:** Smooth page transitions and interactive hover states powered by **Framer Motion**.
+- **Search & Filter:** Quickly find specific coins using an optimized search bar.
+- **Responsive Design:** Fully functional on mobile, tablet, and desktop devices.
+- **Visual Trends:** Interactive charts showing price fluctuations over time.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🛠️ Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+| Technology | Purpose |
+| :--- | :--- |
+| **React.js** | Library for building the UI |
+| **Material UI** | Component library for layout, buttons, and inputs |
+| **Framer Motion** | Declarative animations and transitions |
+| **Axios** | Handling API requests |
+| **Chart.js** | Data visualization for price trends |
+| **Netlify** | Fast and reliable hosting |
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Installation & Setup
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/YOUR_GITHUB_USERNAME/crypto-pulse-tracker.git](https://github.com/YOUR_GITHUB_USERNAME/crypto-pulse-tracker.git)
